@@ -98,11 +98,15 @@ label {
     font-size: 12px;
     }
     #inbill {
+        background-color: var(--light-grayish-cyan2);
+        border-style: none;
         text-align: right;
         width: 100%;
         height: 100%;
     }
     #inpeople {
+        background-color: var(--light-grayish-cyan2);
+        border-style: none;
         text-align: right;
         width: 100%;
         height: 100%;
@@ -122,14 +126,15 @@ label {
 }
 
 .numpeople {
+    display: flex;
     font-size: 12px;
 }
 
 #error {
     display: flex;
     justify-content: flex-end;
-    color: rgb(243, 92, 104);
-    font-size: 10px;
+    color: rgb(248, 113, 124);
+    font-size: 11px;
 }
 
 .wrap-input {
@@ -189,4 +194,5 @@ label {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+    text-decoration: none;
 }
