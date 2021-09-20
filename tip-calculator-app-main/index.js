@@ -1,4 +1,4 @@
-const buttons = document.getElementById('tip-input')
+let buttons = document.getElementById('tip-input')
 let inputBill = document.getElementById('inbill')
 let people = document.getElementById('inpeople')
 let customButton = document.querySelector('.incustom')
@@ -58,7 +58,7 @@ function calculateAmount( ) {
     const price = parseFloat(inputBill.value) / parseInt(people.value)
     const tip_amount = price * active_tip / 100
     const total = price + tip_amount
-console.log()
+    
     tip.innerText = tip_amount.toFixed(2)
     totalNum.innerText = total.toFixed(2)
 }

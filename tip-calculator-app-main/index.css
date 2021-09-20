@@ -126,14 +126,14 @@ label {
 }
 
 .numpeople {
-    display: flex;
     font-size: 12px;
 }
 
 #error {
-    display: flex;
-    justify-content: flex-end;
     color: rgb(248, 113, 124);
+    display: inline-block;
+    text-align: end;
+    width: 44%;
     font-size: 11px;
 }
 
