@@ -120,6 +120,11 @@ label {
     font-size: 16px;
     border-radius: 5px;
 }
+
+.icon {
+    position: absolute;
+    margin: 6px 0 0 6px;
+}
 /*INPUT BOX end*/
 .people-container {
     margin-bottom: 20px;
