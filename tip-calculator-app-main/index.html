@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./index.css">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+
+</head>
+<body>
+
+  <!--CONTAINER-->
+  <div class="bill-container">
+    <header class="logo">
+      <img src="./images/logo.svg" alt="Splitter logo">
+    </header>
+    <div class="bill-card-box">
+
+      <!--INPUT-->
+      <div class="input-box">
+        <div class="bill-wrap">
+          <label class="bill">Bill</label>
+          <div class="wrap-input">
+          <input type="number" class="infield" id="inbill" placeholder="420">
+          </div>
+        </div>
+
+        <div class="wrap-tip">
+          <label class="tip">Select Tip %</label>
+          <div id="tip-input">
+              <button class="tip-btn">5%</button>
+              <button class="tip-btn">10%</button>
+              <button class="tip-btn">15%</button>
+              <button class="tip-btn">25%</button>
+              <button class="tip-btn">50%</button>
+              <input type="number" class="incustom" placeholder="Custom">
+          </div>
+        </div>
+
+        <div class="people-container">
+          <label class="numpeople">Number of People</label>
+          <div class="error"></div>
+          <div class="wrap-input">
+          <input type="number" class="infield" id="inpeople" placeholder="69">
+          </div>
+        </div>
+      </div>
+
+      <!--OUTPUT-->
+      <div class="output-box">
+        <div class="output-amount">
+          <div class="output-tip">Tip Amount</div>
+          <div class="output-value"><a class="perperson">$0.00</a></div>
+          <div class="output-person">/ person</div>
+        </div>
+        <div class="wrap-total">
+          <div class="output-tip">Total</div>
+          <div class="output-value"><a class="totalperson">$0.00</a></div>
+          <div class="output-person">/ Person</div>
+        </div>
+        <button class="reset-btn" onclick="handleReset()">RESET</button>
+      </div>
+    </div>
+
+    <!--FOOTER-->
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by
+      <a href="#">Anders Nyhammer</a>.
+    </div>
+  </div>
+  <script src="./index.js"></script>
+</body>
+</html>
