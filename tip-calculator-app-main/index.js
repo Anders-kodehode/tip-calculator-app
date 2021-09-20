@@ -23,7 +23,7 @@ function handleError (action){
     let error = document.getElementById('error')
     switch (action) {
         case 'add':
-            error.innerText = "People can't be zero";
+            error.innerText = "Can't be zero";
             people.classList.add('input-error');
             break
 
