@@ -63,3 +63,11 @@ console.log()
     totalNum.innerText = total.toFixed(2)
 }
 
+function handleReset () {
+    resetButton.classList.add('disabled')
+    customButton.value = ""
+    people.value = 0
+    inputBill.value = 0
+    toggleActiveButton({target:buttons.children[2]})
+    handleError('remove')
+}
