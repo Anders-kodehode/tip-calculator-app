@@ -149,37 +149,38 @@ label {
 /*OUTPUT*/
 .output-box {
     background-color: var(--very-dark-cyan);
-    border-radius: 8px;
+    flex-direction: column;
+    justify-content: flex-start;
     padding: 1em;
+    border-radius: 8px;
 }
 
-.output-amount {
-    display: grid;
-    align-items: end;
-    grid-template-columns: repeat(auto-fill, minmax(47.5%, 1fr));
-    margin: 0px 0px 10px 0px;
+.output-user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.wrap-total {
-    display: grid;
-    align-items: end;
-    grid-template-columns: repeat(auto-fill, minmax(47.5%, 1fr));
-    margin: 0px 0px 20px 0px;
-}
-
-.output-tip {
+.content-output {
     color: var(--light-grayish-cyan2);
     font-size: 12px;
-}
-
-.output-person {
-    color: var(--dark-grayish-cyan);
-    font-size: 10px;
+    }
+    .content-output p:nth-child(1) {
+        color: var(--white);
+        font-size: 11px;
+        line-height: 16px;
+    }
+    .content-output p:nth-child(2) {
+        color: var(--dark-grayish-cyan);
+        font-size: 9px;
+        line-height: 16px;
 }
 
 .output-value {
     color: var(--strong-cyan);
+    letter-spacing: -1px;
     font-size: 24px;
+    line-height: 50px;
 }
 
 .reset-btn {
