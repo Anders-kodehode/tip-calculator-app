@@ -126,7 +126,14 @@ label {
 
 .icon {
     position: absolute;
-    margin: 6px 0 0 6px;
+    margin: 6px 0 0 10px;
+    }
+    span > img {
+        width: 8px;
+        height: auto;
+    }
+    span > img:nth-child(1) {
+        margin-top: 2px;
 }
 /*INPUT BOX end*/
 .people-container {
