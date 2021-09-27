@@ -216,3 +216,33 @@ label {
     color: hsl(228, 45%, 44%);
     text-decoration: none;
 }
+
+@media (min-width: 540px) {
+    .bill-container {
+        
+    }
+    .bill-card-box {
+        display: flex;
+    }
+    .bill-wrap {
+        margin-bottom: 20px;
+    }
+    .wrap-tip {
+        margin-bottom: 20px;
+    }
+    #tip-input {
+        grid-template-columns: repeat(3, 85px);
+        width: 282px;
+        margin-bottom: 20px;
+        row-gap: 10px;
+    }
+    .output-container {
+        height: 262px;
+        width: 282px;
+        margin-left: 20px;
+    }
+    .reset-btn {
+        margin-top: 95px;
+        line-height: 23px;
+    }
+}
