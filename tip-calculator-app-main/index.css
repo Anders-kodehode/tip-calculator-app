@@ -88,6 +88,8 @@ label {
     font-size: 16px;
     border-radius: 4px;
     cursor: pointer;
+    box-shadow:
+        0 2px 2px hsl(0deg 0% 0% / 0.3);
 }
 /*INPUT BOX*/
 .wrap-input {
@@ -193,6 +195,8 @@ label {
     padding: 5px 0 5px 0;
     border-radius: 4px;
     cursor: pointer;
+    box-shadow:
+        0 2px 2px hsl(0deg 0% 0% / 0.3);
 }
 /*FOOTER*/
 .attribution {
