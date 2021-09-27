@@ -147,7 +147,7 @@ label {
     border-radius: 4px;
 }
 /*OUTPUT*/
-.output-box {
+.output-container {
     background-color: var(--very-dark-cyan);
     flex-direction: column;
     justify-content: flex-start;
@@ -197,6 +197,7 @@ label {
 /*FOOTER*/
 .attribution {
     text-align: center;
+    margin-top: 6px;
     font-size: 11px;
 }
 
