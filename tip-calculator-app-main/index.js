@@ -59,8 +59,8 @@ function calculateAmount( ) {
     const tip_amount = price * active_tip / 100
     const total = price + tip_amount
     
-    tip.innerText = tip_amount.toFixed(2)
-    totalNum.innerText = total.toFixed(2)
+    tip.innerText = '$' + tip_amount.toFixed(2)
+    totalNum.innerText = '$' + total.toFixed(2)
 }
 
 function handleReset () {
