@@ -218,9 +218,6 @@ label {
 }
 
 @media (min-width: 540px) {
-    .bill-container {
-        
-    }
     .bill-card-box {
         display: flex;
     }
@@ -231,15 +228,18 @@ label {
         margin-bottom: 20px;
     }
     #tip-input {
-        grid-template-columns: repeat(3, 85px);
-        width: 282px;
+        grid-template-columns: repeat(3, 78px);
+        width: 262px;
         margin-bottom: 20px;
         row-gap: 10px;
     }
     .output-container {
         height: 262px;
-        width: 282px;
+        width: 262px;
         margin-left: 20px;
+    }
+    .output-value {
+        font-size: 28px;
     }
     .reset-btn {
         margin-top: 95px;
