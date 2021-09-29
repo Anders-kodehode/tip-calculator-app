@@ -208,6 +208,7 @@ label {
 /*FOOTER*/
 .attribution {
     text-align: center;
+    width: max-content;
     margin-top: 6px;
     font-size: 11px;
 }
@@ -217,7 +218,7 @@ label {
     text-decoration: none;
 }
 
-@media (min-width: 540px) {
+@media (min-width: 600px) {
     .bill-container {
         margin-top: 5%;
     }
@@ -247,5 +248,11 @@ label {
     .reset-btn {
         margin-top: 95px;
         line-height: 23px;
+    }
+    .attribution {
+        display: flex;
+    }
+    .attribution > p:nth-child(2) {
+        text-indent: 100px;
     }
 }
