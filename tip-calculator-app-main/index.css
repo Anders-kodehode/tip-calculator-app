@@ -218,6 +218,9 @@ label {
 }
 
 @media (min-width: 540px) {
+    .bill-container {
+        margin-top: 5%;
+    }
     .bill-card-box {
         display: flex;
     }
